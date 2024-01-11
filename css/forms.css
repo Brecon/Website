@@ -1,0 +1,70 @@
+/* form 5 */
+
+	#form5{
+		color:#FFF;
+		font-family:helvetica;
+		margin:1em 0;
+		padding-top:10px;
+		}
+	#form5 fieldset{
+		margin:0;
+		padding-top:.5em;
+		border:none;	
+		}		
+	#form5 legend{
+		color: #FFF;
+		padding:0 5px;
+		}	
+	#form5 p{
+		clear:both;
+		margin:.5em 0;
+		overflow:hidden;
+		}	
+	#form5 label{
+		float:left;
+		width:60px;
+		display:block;
+		text-align:right;
+		margin-right:10px;
+		}	
+	#form5 input, #form5 textarea{	
+		margin:0;	
+		width:250px;
+		border:1px solid #ddd;		
+		padding:3px 5px 5px 25px;
+		}		
+	
+	
+	#form5 input#name{color:#FFF;font-family:helvetica;background: url(../images/form5/form_name.gif) no-repeat 5px 50%;}
+	#form5 input#email{color:#FFF;font-family:helvetica;background: url(../images/form5/form_email.gif) no-repeat 5px 50%;}
+	#form5 input#web{color:#FFF;font-family:helvetica;background: url(../images/form5/form_url.gif) no-repeat 5px 50%;}
+	#form5 textarea#message{color:#FFF;font-family:helvetica;background: url(../images/form5/form_note.gif) no-repeat 5px 6px;}
+	
+	
+	#form5 textarea{
+		height:125px;
+		overflow:auto;
+		}					
+	#form5 p.submit{
+		clear:both;
+		margin:1em 0;
+		padding:0 70px;		
+		
+		}	
+	#form5 button{
+		height:28px;
+		line-height:28px;		
+		border-top:1px solid #999;
+		border-left:1px solid #999;
+		border-right:1px solid #333;
+		border-bottom:1px solid #333;
+		background:url(../images/form5/form_button.gif) no-repeat;
+		padding:0 10px 0 25px;
+		color:#333;
+		cursor:pointer;
+		text-align:left;
+		font-size:11px;
+		font-weight:bold;
+		}				
+
+/* // form 5 */

@@ -1,0 +1,279 @@
+@import url(./reset.css);
+@import url(./forms.css);
+
+body {
+	background:url('../images/bgrepeat.jpg');
+	background-repeat:repeat;
+	font-family: helvetica;
+	height: 1380px;
+}
+
+body#home a#homenav{
+	background: url("../images/buttonbg.png") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    display: block;
+    height: 32px;
+    margin: 16px 0 0 56px;
+    padding: 0px;
+    text-align: center;
+    width: 87px;
+    padding-top: 12px;
+}	
+
+body#home a#homenav:hover{
+	background: url("../images/rollover.png") no-repeat scroll 0 0 transparent;
+}
+
+body#about a#aboutnav{
+	background: url("../images/buttonbg.png") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    display: block;
+    height: 32px;
+    margin: 16px 0 0 56px;
+    padding: 0px;
+    text-align: center;
+    width: 87px;
+    padding-top: 12px;
+}	
+
+body#about a#aboutnav:hover{
+	background: url("../images/rollover.png") no-repeat scroll 0 0 transparent;
+
+}
+
+body#services a#servicesnav{
+	background: url("../images/buttonbg.png") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    display: block;
+    height: 32px;
+    margin: 16px 0 0 56px;
+    padding: 0px;
+    text-align: center;
+    width: 87px;
+    padding-top: 12px;
+}	
+
+body#services a#servicesnav:hover{
+	background: url("../images/rollover.png") no-repeat scroll 0 0 transparent;
+
+}
+
+body#portfolio a#portfolionav{
+	background: url("../images/buttonbg.png") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    display: block;
+    height: 32px;
+    margin: 16px 0 0 56px;
+    padding: 0px;
+    text-align: center;
+    width: 87px;
+    padding-top: 12px;
+}	
+body#portfolio a#portfolionav:hover{
+	background: url("../images/rollover.png") no-repeat scroll 0 0 transparent;
+}
+
+body#contact a#contactnav{
+	background: url("../images/buttonbg.png") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    display: block;
+    height: 32px;
+    margin: 16px 0 0 56px;
+    padding: 0px;
+    text-align: center;
+    width: 87px;
+    padding-top: 12px;
+}	
+body#contact a#contactnav:hover{
+	background: url("../images/rollover.png") no-repeat scroll 0 0 transparent;
+
+}
+
+#mainpage {
+	width:1176px;
+	height:1000px;
+	margin:0px auto; 
+}
+
+#logo {
+	background:url('../images/brecontop.png');
+	background-repeat:no-repeat;
+	width: 416px;
+	height: 96px;
+	display:block;
+	float:left;
+	margin: 20px 0px 0px 0px;
+}
+
+#nav {
+	background:url('../images/navspectrum.png');
+	width: 634px;
+	height: 93px;
+	float: left;
+	margin-right: -240px;
+	padding-top:32px;
+	margin-left:125px;
+}
+
+#navlist li {
+	display: inline-block;
+	list-style-type: none;
+	color: #FFF;
+	font-size: 14px;
+}
+#navlist li a {
+	color:#FFF;
+	padding-left:16px;
+	display:block;
+	width:87px;
+	text-align:center;
+	padding-top:12px;
+}
+#navlist li a:hover {
+    background: url("../images/rollover.png") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    display: block;
+    height: 32px;
+    margin-left: 16px;
+    padding: 0px;
+    text-align: center;
+    width: 87px;
+    padding-top: 12px;
+}
+
+#navlist li a:visited {
+	color: #FFF;
+}
+
+#recentwork {
+	float: left;
+	margin: 37px 500px 0 0;
+}
+
+.h1 {
+	font-family: helvetica,arial,verdana;
+	font-size: 28px;
+	color: #686868;
+}
+
+.seperatorgray { width:600px;
+	height:1px;
+	background:#CCC;
+	display:block;
+	margin:0px;
+	padding:0px; 
+}
+
+.seperatorwhite { width:600px;
+	height:1px;
+	background:#FFF;
+	display:block;
+	margin:0px;
+	padding:0px; 
+}
+
+.recentworkwriting {
+	float: right;
+	margin: 0 -600px 0 0px;
+	width: 500px;
+	font-family: helvetica, arial, verdana;
+	font-size: 12px;
+	color: #686868;
+	line-height: 22px;
+}
+
+#testimonials {
+	margin: 0px 0 0 0;
+	padding: 470px 0 0 0;
+}
+
+#great {
+	background: url('../images/greatdesigns.png') no-repeat scroll;
+	width: 1058px;
+	height: 46px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#greatline {
+	background: url('../images/undergreat.png') no-repeat;
+	margin-top: 15px;
+	width: 1174px;
+	height: 2px;
+}
+	
+
+.testimonial1 {
+	color: #FFF;
+	font-size: 12px;
+	line-height: 18px;
+	font-family: helvetica, arial, verdana;
+	width: 300px;
+	float: left;
+	height: 300px;
+	padding: 30px 0 0 40px;
+}
+
+#objectives {
+	float: left;
+	margin: -60px 500px 0 0;
+	padding: 0 0 20px 0;
+}
+
+.objectives {
+	font-family: helvetica, arial, verdana;
+	font-size: 14px;
+	color: #686868;
+	background: url('../images/blip.png') no-repeat;
+	padding: 0 0 20px 30px;
+	width: 800px;
+}
+
+#footer {
+	margin: 0 0 0 -40px;
+	padding: 20px 0 0 0;
+}
+
+#form {
+	float: left;
+	margin: 20px 0 0 0px;
+	padding: 0 0 0 0;
+}
+
+#logobot {
+	background:url('../images/breconbot.png');
+	background-repeat:no-repeat;
+	width: 374px;
+	height: 109px;
+	display:block;
+	float:right;
+	margin: 210px -40px 0 0;
+}
+
+#bottomnav {
+	display: block;
+	float:right;
+	margin: 280px -340px 0 0;
+	padding: 0 0px 0 20px;
+}
+
+#botnavlist li {
+	display: inline-block;
+	list-style-type: none;
+	color: #FFF;
+	font-size: 14px;
+}
+#botnavlist li a {
+	color:#FFF;
+	padding-left:15px;
+	margin: 0px 0px 0px 0;
+	display:block;
+	text-align:center;
+}
+
+#copyright {
+	color: #1A2332;
+	text-align: center;
+	margin: 380px auto auto auto;
+	
+}
